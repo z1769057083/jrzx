@@ -1,0 +1,31 @@
+
+#top_menu_bar{
+	width:6.2rem;
+	height:0.72rem;
+	padding:0 0.1rem;
+	background:#F4F5F6;
+	#nav-smartSetup{
+		width:5.5rem;
+		height:0.72rem;
+		overflow:hidden;
+		position:relative;
+		ul{
+			position:absolute;
+			width:13.2rem;
+			height:100%;
+			li{
+				height:0.72rem;
+				float:left;
+				list-style:none;
+				a{
+					line-height:0.52rem;
+					font-size:0.4rem;
+					color:#000;
+					text-decoration:none;
+					display:block;
+					margin:0.1rem 0.2rem;
+				}
+			}
+		}
+	} 
+}
